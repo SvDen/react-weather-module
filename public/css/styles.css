@@ -1,0 +1,73 @@
+.weather-main-container {
+    max-width: 500px;
+}
+
+.head-container {
+    background-color: #49DF8D;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+
+.weather-search {
+    background-color: inherit;
+    padding: 0 30px;
+    display: flex;
+}
+
+.weather-search-field {
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid grey;
+    padding: 0 20px;
+    background-color: inherit;
+    color: white;
+    font-weight: 700;
+}
+
+
+.weather-search-field:focus {
+    outline: none;
+}
+
+.weather-search-field::-webkit-input-placeholder {color: white}
+.weather-search-field::-moz-placeholder {color: white}
+
+.weather-search-button {
+    height: 40px;
+    width: 40px;
+    background-color: inherit;
+    border: 2px solid grey;
+    border-radius: 20px;
+    outline: none;
+    margin: 0 0 0 20px;
+    background: url("../img/icon-search.png") no-repeat center;
+    background-size: 40%;
+}
+
+.weather-current {
+    padding: 20px 30px;
+    color: white;
+    font-weight: 700;
+}
+
+.weather-current-temp {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.weather-current-temp-icon {
+    display: block;
+}
+
+.weather-current-wind {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    font-size: 20px;
+}
